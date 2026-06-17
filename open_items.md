@@ -40,21 +40,22 @@
 | ME 速查表（属性级：index/类型/长度/读写/SetByCreate） | ✅ 已写满 | 中 | 迭代 5 ✅ |
 | VoIP 业务配置（SIP/POTS/VoIP Config Data 链路 + 流程图） | ✅ 已写满 | 中 | 迭代 5 ✅ |
 | IPTV 业务配置（Multicast GEM IW TP/Operations Profile 链路 + 流程图） | ✅ 已写满 | 中 | 迭代 5 ✅ |
-| OMCI MIB Upload / 告警 / PM（性能监控）章节 | 缺 | 低 | 后续 |
+| OMCI 告警 / PM（性能监控）章节 | ✅ 已写满（[05-operations/alarms-and-pm](05-operations/alarms-and-pm.md)） | 低 | 迭代 7 ✅ |
+| OMCI MIB Upload 流程章节 | 缺 | 低 | 后续 |
 
 ### DBA（需求 4）—— 基本完成，可增强
 
 | 项 | 当前状态 | 优先级 |
 |----|----------|--------|
-| DBRu/SR 报告格式字段级（G.9807.1 C.8.1.2.2） | 缺 | 低 |
-| TM-DBA（NSR）空闲帧观察法细节 | 概述 | 低 |
-| DBA 性能/公平性参考模型与度量 | 缺 | 低 |
+| DBRu/SR 报告格式字段级（G.9807.1 C.8.1.2.2） | ✅ 已写满（[dbru-bwmap-format.md](03-dba/dbru-bwmap-format.md)） | 低 | 迭代 7 ✅ |
+| TM-DBA（NSR）空闲帧观察法细节 | ✅ 已补（SR vs TM 对照） | 低 | 迭代 7 ✅ |
+| DBA 性能/公平性参考模型与度量 | 概述（C.7.2.2 四步） | 低 | 后续 |
 
 ### 加分项（非原始需求，可选）
 
 - [x] 安全：PLOAM-IK / OMCI-IK 派生、AES-CTR 加密、Key Control/Report 流程 — [04-security](04-security/key-management-encryption.md)（迭代 6 ✅）
-- [ ] 省电：Sleep/Doze/Watchful Sleep 状态与 PLOAM 交互
-- [ ] 故障与告警：LOS/LOF/LODS/DG（Dying Gasp）等
+- [x] 省电：Sleep/Doze/Watchful Sleep 状态与 PLOAM 交互 — [05-operations/power-management](05-operations/power-management.md)（迭代 7 ✅）
+- [x] 故障与告警：LOS/LOF/LODS/DG（Dying Gasp）等 — [05-operations/alarms-and-pm](05-operations/alarms-and-pm.md)（迭代 7 ✅）
 - [ ] 互通测试要点（BBF TR-309 / TP-255 用例归纳）
 
 ## 迭代进度
@@ -65,4 +66,5 @@
 - [x] 迭代 4：OMCI 规范总览 — [omci-spec.md](02-omci/omci-spec.md)
 - [x] 迭代 5：OMCI 建模补全 + XGS-PON 状态机 — [ME 速查](02-omci/me-reference.md) / [VoIP](02-omci/provisioning-voip.md) / [IPTV](02-omci/provisioning-iptv.md) / [XGS-PON 状态机](01-protocol-stack/xgspon-g9807/activation-state-machine.md)
 - [x] 迭代 6：测距与激活细节 / EPON MPCP 详解 / XG-PON 差异逐条 / 安全章节 — [测距激活](01-protocol-stack/gpon-g984/ranging-activation.md) / [EPON](01-protocol-stack/epon-10gepon/overview.md) / [XG-PON 差异](01-protocol-stack/xgpon-g987/delta-vs-xgspon.md) / [安全](04-security/key-management-encryption.md)
-- [ ] 迭代 7（下一批）：省电（Sleep/Doze/Watchful Sleep） / 告警与 PM（性能监控） / DBRu 字段级 / 互通测试要点
+- [x] 迭代 7：省电 / 告警与 PM / DBRu 字段级 — [省电](05-operations/power-management.md) / [告警与 PM](05-operations/alarms-and-pm.md) / [DBRu/BWmap](03-dba/dbru-bwmap-format.md)
+- [ ] 迭代 8（下一批）：OMCI MIB Upload 流程 / 互通测试要点（TR-309/TP-255） / DBA 公平性度量 / NG-PON2 TWDM 调谐
