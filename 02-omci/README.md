@@ -18,6 +18,7 @@
 - [远程诊断：Test / AVC](test-avc-operations.md) — Test/Test response/Test result、光线路监测、AVC 自主通知
 - [消息逐字节示例（MIC 实例）](message-examples.md) — MT 位编码、Baseline/Extended 头、AES-CMAC MIC 计算实例
 - [OMCI 白盒：代码走读](code-walkthrough.md) — gopon ME 规格/属性掩码/自动创建/PLOAM 编解码
+- [开通速查 Cookbook](provisioning-cookbook.md) — HSI/VoIP/IPTV/组播 的 ME 操作序列（Create/Set 骨架）
 - [数据通道全景：L2 OMCI 配置模型 ⭐](datapath-l2-model.md) — UNI→GEM→T-CONT 端到端串讲
 - [IP Host 与 TR-069 远程管理](ip-host-tr069.md) — IP 栈建模、ACS URL、OMCI vs TR-069 分工
 - [TDM 业务与伪线（Pseudowire）](tdm-pseudowire.md) — CES/PW over Eth/UDP/MPLS、时钟恢复

@@ -102,3 +102,4 @@
 - [x] 迭代 16：PON 排障实战 / 端到端 QoS 调度数值案例 / SyncE 频率同步 — [排障](05-operations/troubleshooting.md) / [QoS 案例](03-dba/qos-scheduling-cases.md) / [SyncE](05-operations/synce-frequency.md)
 - [x] 迭代 17：OMCI 消息逐字节示例(MIC) / EPON OAM over EPON / 安全威胁模型 — [消息示例](02-omci/message-examples.md) / [EPON OAM](01-protocol-stack/epon-10gepon/oam-omci.md) / [威胁模型](04-security/threat-model.md)
 - [x] 迭代 18：DBA 代码白盒(gopon+liteaggregator C++) / OMCI 代码白盒(gopon ME 模型) — [DBA 走读](03-dba/code-walkthrough.md) / [OMCI 走读](02-omci/code-walkthrough.md)
+- [x] 迭代 19：OMCI 开通速查 Cookbook（HSI/VoIP/IPTV/组播 ME 序列）— [Cookbook](02-omci/provisioning-cookbook.md)
