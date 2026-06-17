@@ -29,9 +29,9 @@
 | PLOAM 字段级编码（13B/48B 布局、MIC、SeqNum/Ack） | ✅ 已写满 | 高 | 迭代 3 ✅ |
 | OMCI 规范总览（消息格式、操作、MIC、baseline/extended） | ✅ 已写满（[omci-spec.md](02-omci/omci-spec.md)） | 高 | 迭代 4 ✅ |
 | XGS-PON 激活状态机（独立写满） | ✅ 已写满 | 中 | 迭代 5 ✅ |
-| 测距与激活细节（EqD、静默窗、Drift/DOW/TIW） | 提纲 | 中 | 后续 |
-| XG-PON vs XGS-PON 差异（逐条对照 G.987.3 ↔ Annex C） | 提纲 | 低 | 后续 |
-| EPON / 10G-EPON（MPCP 发现/GATE/REPORT、OAM、LLID） | 提纲 | 低 | 后续 |
+| 测距与激活细节（EqD、静默窗、Drift/DOW/TIW） | ✅ 已写满 | 中 | 迭代 6 ✅ |
+| XG-PON vs XGS-PON 差异（逐条对照 G.987.3 ↔ Annex C） | ✅ 已写满 | 低 | 迭代 6 ✅ |
+| EPON / 10G-EPON（MPCP 发现/GATE/REPORT、OAM、LLID） | ✅ 已写满 | 低 | 迭代 6 ✅ |
 
 ### OMCI 建模（需求 3）
 
@@ -52,7 +52,7 @@
 
 ### 加分项（非原始需求，可选）
 
-- [ ] 安全：PLOAM-IK / OMCI-IK 派生、AES-CTR 加密、Key Control/Report 流程
+- [x] 安全：PLOAM-IK / OMCI-IK 派生、AES-CTR 加密、Key Control/Report 流程 — [04-security](04-security/key-management-encryption.md)（迭代 6 ✅）
 - [ ] 省电：Sleep/Doze/Watchful Sleep 状态与 PLOAM 交互
 - [ ] 故障与告警：LOS/LOF/LODS/DG（Dying Gasp）等
 - [ ] 互通测试要点（BBF TR-309 / TP-255 用例归纳）
@@ -64,4 +64,5 @@
 - [x] 迭代 3：PLOAM 字段级编码 — [GPON 13B](01-protocol-stack/gpon-g984/ploam-messages.md) + [XGS-PON 48B](01-protocol-stack/xgspon-g9807/ploam-messages.md)
 - [x] 迭代 4：OMCI 规范总览 — [omci-spec.md](02-omci/omci-spec.md)
 - [x] 迭代 5：OMCI 建模补全 + XGS-PON 状态机 — [ME 速查](02-omci/me-reference.md) / [VoIP](02-omci/provisioning-voip.md) / [IPTV](02-omci/provisioning-iptv.md) / [XGS-PON 状态机](01-protocol-stack/xgspon-g9807/activation-state-machine.md)
-- [ ] 迭代 6（下一批）：测距与激活细节 / EPON MPCP 详解 / XG-PON 差异逐条 / 安全（密钥/加密）/ 省电 / 告警与 PM
+- [x] 迭代 6：测距与激活细节 / EPON MPCP 详解 / XG-PON 差异逐条 / 安全章节 — [测距激活](01-protocol-stack/gpon-g984/ranging-activation.md) / [EPON](01-protocol-stack/epon-10gepon/overview.md) / [XG-PON 差异](01-protocol-stack/xgpon-g987/delta-vs-xgspon.md) / [安全](04-security/key-management-encryption.md)
+- [ ] 迭代 7（下一批）：省电（Sleep/Doze/Watchful Sleep） / 告警与 PM（性能监控） / DBRu 字段级 / 互通测试要点
