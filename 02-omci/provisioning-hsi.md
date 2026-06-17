@@ -6,6 +6,8 @@
 
 **OMCI（ONU Management and Control Interface，G.988）** 是 OLT/vOMCI 对 ONU 做配置管理的协议，跑在一条专用的 **OMCC GEM Port** 上（激活进入 O5 后建立）。
 
+> OMCI 的协议层面（消息格式 baseline/extended、消息类型 DB/AR/AK 位、MIC、MIB 同步）见 [OMCI 规范总览](omci-spec.md)；本篇聚焦 ME 建模实战。
+
 OMCI 把 ONU 的能力建模成一组 **Managed Entity（ME）**：每个 ME 有一个 **Class ID**、一个 **Instance ID（Managed Entity ID）**，以及一组**属性（Attribute）**。OLT 通过几类 OMCI 操作管理 ME：
 
 | 操作 | 作用 |
