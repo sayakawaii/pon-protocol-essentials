@@ -9,6 +9,7 @@
 - [DBRu 与 BWmap 字段级格式](dbru-bwmap-format.md) — DBRu 4B 结构、BufOcc 计量、BWmap allocation 字段、SR vs TM
 - [DBA 参考模型与性能度量](reference-model.md) — Traffic Descriptor 六元组、带宽分量、稳态/恢复/收敛指标
 - [端到端 QoS 调度与带宽分配数值案例](qos-scheduling-cases.md) — 三级调度模型、严格优先/WRR、TR-156 算例、DBA 分配算例
+- [DBA 白盒：代码走读](code-walkthrough.md) — gopon Schedule/swbwm Allocator + liteaggregator C++ 内核逐行对标
 
 ## 一句话理解
 
