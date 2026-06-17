@@ -100,4 +100,4 @@
 - [x] 迭代 14：时间同步(ToD/1PPS/1588) / OMCI 远程诊断 Test/AVC / ONU 一致性认证 — [时间同步](05-operations/time-synchronization.md) / [Test/AVC](02-omci/test-avc-operations.md) / [一致性认证](06-interop/onu-conformance.md)
 - [x] 迭代 15：FEC 原理(RS/BCH/LDPC) / 光功率预算(ODN class) / HSP 功率调平与能力协商 — [FEC](01-protocol-stack/fec-principles.md) / [光功率预算](01-protocol-stack/optical-power-budget.md) / [功率调平](01-protocol-stack/hsp-g9804/power-leveling.md)
 - [x] 迭代 16：PON 排障实战 / 端到端 QoS 调度数值案例 / SyncE 频率同步 — [排障](05-operations/troubleshooting.md) / [QoS 案例](03-dba/qos-scheduling-cases.md) / [SyncE](05-operations/synce-frequency.md)
-- [ ] 迭代 17（下一批）：OMCI 扩展消息逐字段示例 / EPON OAM/eOAM 深化 / PON 安全威胁与防护汇总 / 知识库总索引与学习路径完善
+- [x] 迭代 17：OMCI 消息逐字节示例(MIC) / EPON OAM over EPON / 安全威胁模型 — [消息示例](02-omci/message-examples.md) / [EPON OAM](01-protocol-stack/epon-10gepon/oam-omci.md) / [威胁模型](04-security/threat-model.md)

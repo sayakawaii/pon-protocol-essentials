@@ -16,6 +16,7 @@
 - [组播控制：IGMP / MLD](multicast-control.md) — snooping/proxy、IGMP 版本、ACL、Lost groups
 - [告警速查表（按 ME）](alarm-reference.md) — ANI-G / ONU-G / 电压 / xDSL 告警号字典
 - [远程诊断：Test / AVC](test-avc-operations.md) — Test/Test response/Test result、光线路监测、AVC 自主通知
+- [消息逐字节示例（MIC 实例）](message-examples.md) — MT 位编码、Baseline/Extended 头、AES-CMAC MIC 计算实例
 - [数据通道全景：L2 OMCI 配置模型 ⭐](datapath-l2-model.md) — UNI→GEM→T-CONT 端到端串讲
 - [IP Host 与 TR-069 远程管理](ip-host-tr069.md) — IP 栈建模、ACS URL、OMCI vs TR-069 分工
 - [TDM 业务与伪线（Pseudowire）](tdm-pseudowire.md) — CES/PW over Eth/UDP/MPLS、时钟恢复
