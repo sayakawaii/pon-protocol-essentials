@@ -59,6 +59,9 @@
 | 时间与频率同步（ToD/1PPS/1588） | ✅ 已写满（[time-synchronization](05-operations/time-synchronization.md)） | 中 | 迭代 14 ✅ |
 | OMCI 远程诊断 Test/AVC 操作 | ✅ 已写满（[test-avc-operations](02-omci/test-avc-operations.md)） | 低 | 迭代 14 ✅ |
 | ONU 一致性/互联认证（BBF.247/TP-255） | ✅ 已写满（[onu-conformance](06-interop/onu-conformance.md)） | 中 | 迭代 14 ✅ |
+| FEC 原理（RS/BCH/LDPC）各代对照 | ✅ 已写满（[fec-principles](01-protocol-stack/fec-principles.md)） | 中 | 迭代 15 ✅ |
+| 光功率预算与 ODN class | ✅ 已写满（[optical-power-budget](01-protocol-stack/optical-power-budget.md)） | 中 | 迭代 15 ✅ |
+| HSP 功率调平/能力协商 | ✅ 已写满（[power-leveling](01-protocol-stack/hsp-g9804/power-leveling.md)） | 低 | 迭代 15 ✅ |
 
 ### DBA（需求 4）—— 基本完成，可增强
 
@@ -92,4 +95,5 @@
 - [x] 迭代 12：数据通道全景 L2-OCM / IP Host 与 TR-069 / TDM 伪线 — [datapath 全景](02-omci/datapath-l2-model.md) / [IP Host/TR-069](02-omci/ip-host-tr069.md) / [TDM 伪线](02-omci/tdm-pseudowire.md)
 - [x] 迭代 13：保护倒换 Type A/B/C / OMCI 告警速查表 / GPON vs XGS-PON 数值对照 — [保护倒换](05-operations/protection-switching.md) / [告警速查](02-omci/alarm-reference.md) / [数值对照](01-protocol-stack/gpon-vs-xgspon.md)
 - [x] 迭代 14：时间同步(ToD/1PPS/1588) / OMCI 远程诊断 Test/AVC / ONU 一致性认证 — [时间同步](05-operations/time-synchronization.md) / [Test/AVC](02-omci/test-avc-operations.md) / [一致性认证](06-interop/onu-conformance.md)
-- [ ] 迭代 15（下一批）：25/50G-PON(HSP) PLOAM/帧深化 / OMCI 扩展消息逐字段 / FEC 原理(RS/LDPC)对照 / PON 功率预算与光链路
+- [x] 迭代 15：FEC 原理(RS/BCH/LDPC) / 光功率预算(ODN class) / HSP 功率调平与能力协商 — [FEC](01-protocol-stack/fec-principles.md) / [光功率预算](01-protocol-stack/optical-power-budget.md) / [功率调平](01-protocol-stack/hsp-g9804/power-leveling.md)
+- [ ] 迭代 16（下一批）：OMCI 扩展消息逐字段 / PON 抓包与排障实战 / SyncE 频率同步细化 / 业务 QoS 端到端调度数值案例
