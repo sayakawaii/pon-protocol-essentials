@@ -1,0 +1,7 @@
+# RAG 检索临时输出
+snippets_*.txt
+
+# 编辑器/系统
+.DS_Store
+.vscode/
+*.swp
