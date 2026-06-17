@@ -5,10 +5,11 @@
 ## 目录
 
 - [OMCI 规范总览](omci-spec.md) — 消息格式（baseline/extended）、消息类型、操作、MIC、MIB 同步
+- [MIB Upload 与 MIB 同步](mib-upload-sync.md) — MIB data sync、新/旧 ONU 上线、三种同步场景
 - [HSI 上网业务配置链路 ⭐](provisioning-hsi.md) — 从 MIB Reset 到 Traffic Descriptor 的完整 ME 下发链路
-- [ME 速查表](me-reference.md) — 常见 Managed Entity 的 Class / 属性 / 创建者（提纲）
-- [VoIP 业务配置](provisioning-voip.md) — VoIP / SIP / POTS 相关 ME（提纲）
-- [IPTV 业务配置](provisioning-iptv.md) — 组播 ME（Multicast GEM IW TP / Operations Profile）（提纲）
+- [ME 速查表](me-reference.md) — 常见 Managed Entity 的 Class / 属性 / 创建者
+- [VoIP 业务配置](provisioning-voip.md) — VoIP / SIP / POTS 相关 ME
+- [IPTV 业务配置](provisioning-iptv.md) — 组播 ME（Multicast GEM IW TP / Operations Profile）
 
 ## 核心概念
 

@@ -32,6 +32,7 @@
 | 测距与激活细节（EqD、静默窗、Drift/DOW/TIW） | ✅ 已写满 | 中 | 迭代 6 ✅ |
 | XG-PON vs XGS-PON 差异（逐条对照 G.987.3 ↔ Annex C） | ✅ 已写满 | 低 | 迭代 6 ✅ |
 | EPON / 10G-EPON（MPCP 发现/GATE/REPORT、OAM、LLID） | ✅ 已写满 | 低 | 迭代 6 ✅ |
+| NG-PON2 TWDM（多波长架构、ONU 调谐、ICTP） | ✅ 已写满（[ngpon2 overview](01-protocol-stack/ngpon2-g989/overview.md)） | 低 | 迭代 8 ✅ |
 
 ### OMCI 建模（需求 3）
 
@@ -41,7 +42,7 @@
 | VoIP 业务配置（SIP/POTS/VoIP Config Data 链路 + 流程图） | ✅ 已写满 | 中 | 迭代 5 ✅ |
 | IPTV 业务配置（Multicast GEM IW TP/Operations Profile 链路 + 流程图） | ✅ 已写满 | 中 | 迭代 5 ✅ |
 | OMCI 告警 / PM（性能监控）章节 | ✅ 已写满（[05-operations/alarms-and-pm](05-operations/alarms-and-pm.md)） | 低 | 迭代 7 ✅ |
-| OMCI MIB Upload 流程章节 | 缺 | 低 | 后续 |
+| OMCI MIB Upload 流程章节 | ✅ 已写满（[mib-upload-sync](02-omci/mib-upload-sync.md)） | 低 | 迭代 8 ✅ |
 
 ### DBA（需求 4）—— 基本完成，可增强
 
@@ -56,7 +57,7 @@
 - [x] 安全：PLOAM-IK / OMCI-IK 派生、AES-CTR 加密、Key Control/Report 流程 — [04-security](04-security/key-management-encryption.md)（迭代 6 ✅）
 - [x] 省电：Sleep/Doze/Watchful Sleep 状态与 PLOAM 交互 — [05-operations/power-management](05-operations/power-management.md)（迭代 7 ✅）
 - [x] 故障与告警：LOS/LOF/LODS/DG（Dying Gasp）等 — [05-operations/alarms-and-pm](05-operations/alarms-and-pm.md)（迭代 7 ✅）
-- [ ] 互通测试要点（BBF TR-309 / TP-255 用例归纳）
+- [x] 互通测试要点（BBF TR-309 / TP-255 用例归纳） — [06-interop](06-interop/test-plan-overview.md)（迭代 8 ✅）
 
 ## 迭代进度
 
@@ -67,4 +68,5 @@
 - [x] 迭代 5：OMCI 建模补全 + XGS-PON 状态机 — [ME 速查](02-omci/me-reference.md) / [VoIP](02-omci/provisioning-voip.md) / [IPTV](02-omci/provisioning-iptv.md) / [XGS-PON 状态机](01-protocol-stack/xgspon-g9807/activation-state-machine.md)
 - [x] 迭代 6：测距与激活细节 / EPON MPCP 详解 / XG-PON 差异逐条 / 安全章节 — [测距激活](01-protocol-stack/gpon-g984/ranging-activation.md) / [EPON](01-protocol-stack/epon-10gepon/overview.md) / [XG-PON 差异](01-protocol-stack/xgpon-g987/delta-vs-xgspon.md) / [安全](04-security/key-management-encryption.md)
 - [x] 迭代 7：省电 / 告警与 PM / DBRu 字段级 — [省电](05-operations/power-management.md) / [告警与 PM](05-operations/alarms-and-pm.md) / [DBRu/BWmap](03-dba/dbru-bwmap-format.md)
-- [ ] 迭代 8（下一批）：OMCI MIB Upload 流程 / 互通测试要点（TR-309/TP-255） / DBA 公平性度量 / NG-PON2 TWDM 调谐
+- [x] 迭代 8：OMCI MIB Upload / NG-PON2 TWDM 调谐 / 互通测试要点 — [MIB 同步](02-omci/mib-upload-sync.md) / [NG-PON2](01-protocol-stack/ngpon2-g989/overview.md) / [互通测试](06-interop/test-plan-overview.md)
+- [ ] 迭代 9（下一批）：DBA 公平性度量参考模型 / 25/50G-PON（G.9804.x）要点 / OMCI 软件升级（Software image）流程 / 流氓 ONU（Rogue ONU）检测与隔离
