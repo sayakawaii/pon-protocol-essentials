@@ -72,6 +72,55 @@
 | NA | Non-Assured | 非保证（服务类别） |
 | EqD | Equalization Delay | 均衡时延（测距结果） |
 
+## 编码与物理层
+
+| 缩写 | 全称 | 释义 |
+|------|------|------|
+| RS | Reed-Solomon (code) | 里德-所罗门码（GPON/XGS-PON FEC，如 RS(248,216)） |
+| LDPC | Low-Density Parity-Check (code) | 低密度奇偶校验码（50G-PON FEC） |
+| BCH | Bose-Chaudhuri-Hocquenghem (code) | BCH 码（XGS-PON HEC 用） |
+| OPL | Optical Path Loss | 光路损耗（ODN 等级 B+/C+/N1/N2/E1/E2） |
+| NCG | Net Coding Gain | 净编码增益（开 FEC 换得的 dB 余量） |
+| BITS | Building Integrated Timing Source | 大楼综合定时源（OLT 频率源） |
+
+## 同步
+
+| 缩写 | 全称 | 释义 |
+|------|------|------|
+| ToD | Time of Day | 绝对时间（相位同步，目标 ±1µs） |
+| 1PPS | One Pulse Per Second | 秒脉冲（时间同步物理输出） |
+| SyncE | Synchronous Ethernet | 同步以太（频率同步，G.8262/G.8264） |
+| ESMC | Ethernet Synchronization Messaging Channel | 以太同步消息通道（传 QL） |
+| SSM | Synchronization Status Message | 同步状态消息（ESMC 唯一消息） |
+| QL | Quality Level | 时钟质量等级 |
+| PTP | Precision Time Protocol (IEEE 1588) | 精确时间协议 |
+
+## 安全
+
+| 缩写 | 全称 | 释义 |
+|------|------|------|
+| MSK | Master Session Key | 主会话密钥（密钥层级顶层） |
+| KEK | Key Encryption Key | 密钥加密密钥 |
+| DEK | Data Encryption Key | 数据加密密钥 |
+| OMCI_IK / PLOAM_IK | Integrity Key | OMCI / PLOAM 完整性密钥 |
+| AES-CMAC | Cipher-based MAC | 基于 AES 的消息认证码（MIC 用） |
+| AES-CTR | AES Counter mode | AES 计数器模式（XGEM 载荷加密） |
+
+## 运维 / 高级
+
+| 缩写 | 全称 | 释义 |
+|------|------|------|
+| LOBi | Loss of Burst for ONU i | 某 ONU 突发丢失（OLT 检测，流氓线索） |
+| DFi | Disable Failure | 禁用失败（被禁 ONU 仍上行） |
+| FWI | Forced Wakeup Indication | 强制唤醒指示（省电退出） |
+| LODS | Loss of Downstream Synchronization | 下行同步丢失 |
+| TWDM | Time- and Wavelength-Division Multiplexing | 时分波分复用（NG-PON2） |
+| ICTP | Inter-Channel-Termination Protocol | 通道终端间协议（NG-PON2，BBF TR-352） |
+| HSP | Higher Speed PON | 高速 PON（25/50G，G.9804.x） |
+| CES / PW | Circuit Emulation Service / Pseudowire | 电路仿真 / 伪线（TDM 承载） |
+| AVC | Attribute Value Change | 属性值变化（OMCI 自主通知） |
+| TCA | Threshold Crossing Alert | 门限越界告警 |
+
 ## ONU 状态（激活状态机）
 
 | 状态 | 含义 |
