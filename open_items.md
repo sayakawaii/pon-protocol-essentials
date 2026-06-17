@@ -53,6 +53,9 @@
 | 数据通道全景 L2-OCM 串讲（UNI→GEM→T-CONT） | ✅ 已写满（[datapath-l2-model](02-omci/datapath-l2-model.md)） | 中 | 迭代 12 ✅ |
 | IP Host 与 TR-069 远程管理建模 | ✅ 已写满（[ip-host-tr069](02-omci/ip-host-tr069.md)） | 低 | 迭代 12 ✅ |
 | TDM 业务与伪线（CES/PW） | ✅ 已写满（[tdm-pseudowire](02-omci/tdm-pseudowire.md)） | 低 | 迭代 12 ✅ |
+| OMCI 告警速查表（按 ME 的 Alarm number） | ✅ 已写满（[alarm-reference](02-omci/alarm-reference.md)） | 低 | 迭代 13 ✅ |
+| PON 保护倒换（Type A/B/C、双归属） | ✅ 已写满（[protection-switching](05-operations/protection-switching.md)） | 中 | 迭代 13 ✅ |
+| GPON vs XGS-PON 数值/时序对照 | ✅ 已写满（[gpon-vs-xgspon](01-protocol-stack/gpon-vs-xgspon.md)） | 低 | 迭代 13 ✅ |
 
 ### DBA（需求 4）—— 基本完成，可增强
 
@@ -84,4 +87,5 @@
 - [x] 迭代 10：GEM/XGEM 定界与碎片 / OMCI 消息格式逐字段 / DBA 参考模型与度量 — [GEM/XGEM](01-protocol-stack/gem-xgem/encapsulation-delineation.md) / [消息格式](02-omci/message-formats.md) / [DBA 参考模型](03-dba/reference-model.md)
 - [x] 迭代 11：VLAN/QoS 建模 / 组播 IGMP/MLD 控制 / 测距 EqD 推导 — [VLAN/QoS](02-omci/vlan-qos-modeling.md) / [组播控制](02-omci/multicast-control.md) / [EqD 推导](01-protocol-stack/gpon-g984/ranging-activation.md)
 - [x] 迭代 12：数据通道全景 L2-OCM / IP Host 与 TR-069 / TDM 伪线 — [datapath 全景](02-omci/datapath-l2-model.md) / [IP Host/TR-069](02-omci/ip-host-tr069.md) / [TDM 伪线](02-omci/tdm-pseudowire.md)
-- [ ] 迭代 13（下一批）：ONU 一致性测试（OD-247/TP-247） / 保护倒换（Type B/C 双归属） / OMCI 告警全表归纳 / G.984 vs G.9807 帧时序数值对照
+- [x] 迭代 13：保护倒换 Type A/B/C / OMCI 告警速查表 / GPON vs XGS-PON 数值对照 — [保护倒换](05-operations/protection-switching.md) / [告警速查](02-omci/alarm-reference.md) / [数值对照](01-protocol-stack/gpon-vs-xgspon.md)
+- [ ] 迭代 14（下一批）：ONU 一致性测试（OD-247/TP-247） / OMCI Test/AVC 操作细节 / G.984 GEM vs XGEM 迁移要点 / 时间同步(ToD/1PPS)分发

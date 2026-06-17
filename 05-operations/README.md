@@ -9,6 +9,7 @@
 | [ONU 省电 ⭐](power-management.md) | Doze / Cyclic Sleep / Watchful Sleep；4 态省电状态机；Sleep_Request / Sleep_Allow / FWI |
 | [告警与性能监控](alarms-and-pm.md) | Alarm / AVC / Test Result；PM History Data ME + 15min 区间；TCA 门限越界；LOS/LOF/LODS/Dying Gasp |
 | [流氓 ONU 检测与隔离](rogue-onu.md) | Rogue 行为模型；LOBi / DFi 缺陷；Disable_Serial_Number 二分定位；ICTP 多波长协同 |
+| [PON 保护倒换](protection-switching.md) | Type A/B/C 保护；2:N 分光器单/双归属；OLT 端口状态机；倒换流程 |
 
 ## 与其他章节的关系
 
