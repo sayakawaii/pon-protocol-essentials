@@ -28,7 +28,7 @@
 | XGS-PON 帧结构（XGTC/FS、PSBd、XGEM、RS(248,216)） | ✅ 已写满 | 高 | 迭代 2 ✅ |
 | PLOAM 字段级编码（13B/48B 布局、MIC、SeqNum/Ack） | ✅ 已写满 | 高 | 迭代 3 ✅ |
 | OMCI 规范总览（消息格式、操作、MIC、baseline/extended） | ✅ 已写满（[omci-spec.md](02-omci/omci-spec.md)） | 高 | 迭代 4 ✅ |
-| XGS-PON 激活状态机（独立写满，目前指回 GPON） | 提纲 | 中 | 后续 |
+| XGS-PON 激活状态机（独立写满） | ✅ 已写满 | 中 | 迭代 5 ✅ |
 | 测距与激活细节（EqD、静默窗、Drift/DOW/TIW） | 提纲 | 中 | 后续 |
 | XG-PON vs XGS-PON 差异（逐条对照 G.987.3 ↔ Annex C） | 提纲 | 低 | 后续 |
 | EPON / 10G-EPON（MPCP 发现/GATE/REPORT、OAM、LLID） | 提纲 | 低 | 后续 |
@@ -37,9 +37,9 @@
 
 | 项 | 当前状态 | 优先级 | 迭代 |
 |----|----------|--------|------|
-| ME 速查表（属性级：index/类型/长度/读写/SetByCreate） | 提纲 | 中 | 后续 |
-| VoIP 业务配置（SIP/POTS/VoIP Config Data 链路 + 流程图） | 提纲 | 中 | 后续 |
-| IPTV 业务配置（Multicast GEM IW TP/Operations Profile 链路 + 流程图） | 提纲 | 中 | 后续 |
+| ME 速查表（属性级：index/类型/长度/读写/SetByCreate） | ✅ 已写满 | 中 | 迭代 5 ✅ |
+| VoIP 业务配置（SIP/POTS/VoIP Config Data 链路 + 流程图） | ✅ 已写满 | 中 | 迭代 5 ✅ |
+| IPTV 业务配置（Multicast GEM IW TP/Operations Profile 链路 + 流程图） | ✅ 已写满 | 中 | 迭代 5 ✅ |
 | OMCI MIB Upload / 告警 / PM（性能监控）章节 | 缺 | 低 | 后续 |
 
 ### DBA（需求 4）—— 基本完成，可增强
@@ -63,4 +63,5 @@
 - [x] 迭代 2：XGS-PON 帧结构 — [frame-structure.md](01-protocol-stack/xgspon-g9807/frame-structure.md)
 - [x] 迭代 3：PLOAM 字段级编码 — [GPON 13B](01-protocol-stack/gpon-g984/ploam-messages.md) + [XGS-PON 48B](01-protocol-stack/xgspon-g9807/ploam-messages.md)
 - [x] 迭代 4：OMCI 规范总览 — [omci-spec.md](02-omci/omci-spec.md)
-- [ ] 迭代 5（下一批）：XGS-PON 激活状态机独立写满 / OMCI ME 速查属性级 / VoIP 业务链路
+- [x] 迭代 5：OMCI 建模补全 + XGS-PON 状态机 — [ME 速查](02-omci/me-reference.md) / [VoIP](02-omci/provisioning-voip.md) / [IPTV](02-omci/provisioning-iptv.md) / [XGS-PON 状态机](01-protocol-stack/xgspon-g9807/activation-state-machine.md)
+- [ ] 迭代 6（下一批）：测距与激活细节 / EPON MPCP 详解 / XG-PON 差异逐条 / 安全（密钥/加密）/ 省电 / 告警与 PM
