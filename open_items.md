@@ -56,6 +56,9 @@
 | OMCI 告警速查表（按 ME 的 Alarm number） | ✅ 已写满（[alarm-reference](02-omci/alarm-reference.md)） | 低 | 迭代 13 ✅ |
 | PON 保护倒换（Type A/B/C、双归属） | ✅ 已写满（[protection-switching](05-operations/protection-switching.md)） | 中 | 迭代 13 ✅ |
 | GPON vs XGS-PON 数值/时序对照 | ✅ 已写满（[gpon-vs-xgspon](01-protocol-stack/gpon-vs-xgspon.md)） | 低 | 迭代 13 ✅ |
+| 时间与频率同步（ToD/1PPS/1588） | ✅ 已写满（[time-synchronization](05-operations/time-synchronization.md)） | 中 | 迭代 14 ✅ |
+| OMCI 远程诊断 Test/AVC 操作 | ✅ 已写满（[test-avc-operations](02-omci/test-avc-operations.md)） | 低 | 迭代 14 ✅ |
+| ONU 一致性/互联认证（BBF.247/TP-255） | ✅ 已写满（[onu-conformance](06-interop/onu-conformance.md)） | 中 | 迭代 14 ✅ |
 
 ### DBA（需求 4）—— 基本完成，可增强
 
@@ -88,4 +91,5 @@
 - [x] 迭代 11：VLAN/QoS 建模 / 组播 IGMP/MLD 控制 / 测距 EqD 推导 — [VLAN/QoS](02-omci/vlan-qos-modeling.md) / [组播控制](02-omci/multicast-control.md) / [EqD 推导](01-protocol-stack/gpon-g984/ranging-activation.md)
 - [x] 迭代 12：数据通道全景 L2-OCM / IP Host 与 TR-069 / TDM 伪线 — [datapath 全景](02-omci/datapath-l2-model.md) / [IP Host/TR-069](02-omci/ip-host-tr069.md) / [TDM 伪线](02-omci/tdm-pseudowire.md)
 - [x] 迭代 13：保护倒换 Type A/B/C / OMCI 告警速查表 / GPON vs XGS-PON 数值对照 — [保护倒换](05-operations/protection-switching.md) / [告警速查](02-omci/alarm-reference.md) / [数值对照](01-protocol-stack/gpon-vs-xgspon.md)
-- [ ] 迭代 14（下一批）：ONU 一致性测试（OD-247/TP-247） / OMCI Test/AVC 操作细节 / G.984 GEM vs XGEM 迁移要点 / 时间同步(ToD/1PPS)分发
+- [x] 迭代 14：时间同步(ToD/1PPS/1588) / OMCI 远程诊断 Test/AVC / ONU 一致性认证 — [时间同步](05-operations/time-synchronization.md) / [Test/AVC](02-omci/test-avc-operations.md) / [一致性认证](06-interop/onu-conformance.md)
+- [ ] 迭代 15（下一批）：25/50G-PON(HSP) PLOAM/帧深化 / OMCI 扩展消息逐字段 / FEC 原理(RS/LDPC)对照 / PON 功率预算与光链路

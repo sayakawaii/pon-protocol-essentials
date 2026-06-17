@@ -10,6 +10,7 @@
 | [告警与性能监控](alarms-and-pm.md) | Alarm / AVC / Test Result；PM History Data ME + 15min 区间；TCA 门限越界；LOS/LOF/LODS/Dying Gasp |
 | [流氓 ONU 检测与隔离](rogue-onu.md) | Rogue 行为模型；LOBi / DFi 缺陷；Disable_Serial_Number 二分定位；ICTP 多波长协同 |
 | [PON 保护倒换](protection-switching.md) | Type A/B/C 保护；2:N 分光器单/双归属；OLT 端口状态机；倒换流程 |
+| [时间与频率同步](time-synchronization.md) | ToD 分发（±1µs）；SFC 时间锚；IEEE 1588 主从分布；1PPS；移动回传 |
 
 ## 与其他章节的关系
 

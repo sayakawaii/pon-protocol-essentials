@@ -7,6 +7,7 @@
 | 文档 | 内容 |
 |------|------|
 | [互通测试要点（TR-309 / TP-255）](test-plan-overview.md) | 用例模板、激活/PLOAM/加密/省电/漂移高频用例、报文时序与判据 |
+| [ONU 一致性与互联认证](onu-conformance.md) | BBF.247 / TP-255 / TR-309 三层体系、ONU bring-up、SN/Registration-ID 开通、检查清单 |
 
 ## 为什么重要
 
