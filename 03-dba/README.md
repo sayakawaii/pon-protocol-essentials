@@ -7,6 +7,7 @@
 - [T-CONT 类型与带宽参数 ⭐](tcont-types.md) — 5 种 T-CONT、Fixed/Assured/Non-Assured/Best-Effort、Traffic Descriptor
 - [DBA 算法原理 ⭐](dba-algorithms.md) — SR-DBA vs NSR-DBA、DBRu/BWmap 闭环、分级调度内核
 - [DBRu 与 BWmap 字段级格式](dbru-bwmap-format.md) — DBRu 4B 结构、BufOcc 计量、BWmap allocation 字段、SR vs TM
+- [DBA 参考模型与性能度量](reference-model.md) — Traffic Descriptor 六元组、带宽分量、稳态/恢复/收敛指标
 
 ## 一句话理解
 

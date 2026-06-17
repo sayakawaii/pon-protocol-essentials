@@ -34,6 +34,7 @@
 | EPON / 10G-EPON（MPCP 发现/GATE/REPORT、OAM、LLID） | ✅ 已写满 | 低 | 迭代 6 ✅ |
 | NG-PON2 TWDM（多波长架构、ONU 调谐、ICTP） | ✅ 已写满（[ngpon2 overview](01-protocol-stack/ngpon2-g989/overview.md)） | 低 | 迭代 8 ✅ |
 | 25/50G-PON（G.9804.x / HSP：速率、LDPC、功率调平） | ✅ 已写满（[hsp overview](01-protocol-stack/hsp-g9804/overview.md)） | 低 | 迭代 9 ✅ |
+| GEM/XGEM 定界与碎片重组（HEC 定界、分片、空闲帧） | ✅ 已写满（[gem-xgem](01-protocol-stack/gem-xgem/encapsulation-delineation.md)） | 低 | 迭代 10 ✅ |
 
 ### OMCI 建模（需求 3）
 
@@ -45,6 +46,7 @@
 | OMCI 告警 / PM（性能监控）章节 | ✅ 已写满（[05-operations/alarms-and-pm](05-operations/alarms-and-pm.md)） | 低 | 迭代 7 ✅ |
 | OMCI MIB Upload 流程章节 | ✅ 已写满（[mib-upload-sync](02-omci/mib-upload-sync.md)） | 低 | 迭代 8 ✅ |
 | OMCI 软件升级（Software Image）流程章节 | ✅ 已写满（[software-upgrade](02-omci/software-upgrade.md)） | 低 | 迭代 9 ✅ |
+| OMCI baseline/extended 消息格式逐字段 | ✅ 已写满（[message-formats](02-omci/message-formats.md)） | 低 | 迭代 10 ✅ |
 
 ### DBA（需求 4）—— 基本完成，可增强
 
@@ -52,7 +54,7 @@
 |----|----------|--------|
 | DBRu/SR 报告格式字段级（G.9807.1 C.8.1.2.2） | ✅ 已写满（[dbru-bwmap-format.md](03-dba/dbru-bwmap-format.md)） | 低 | 迭代 7 ✅ |
 | TM-DBA（NSR）空闲帧观察法细节 | ✅ 已补（SR vs TM 对照） | 低 | 迭代 7 ✅ |
-| DBA 性能/公平性参考模型与度量 | 概述（C.7.2.2 四步） | 低 | 后续 |
+| DBA 性能/公平性参考模型与度量 | ✅ 已写满（[reference-model](03-dba/reference-model.md)） | 低 | 迭代 10 ✅ |
 
 ### 加分项（非原始需求，可选）
 
@@ -73,4 +75,5 @@
 - [x] 迭代 7：省电 / 告警与 PM / DBRu 字段级 — [省电](05-operations/power-management.md) / [告警与 PM](05-operations/alarms-and-pm.md) / [DBRu/BWmap](03-dba/dbru-bwmap-format.md)
 - [x] 迭代 8：OMCI MIB Upload / NG-PON2 TWDM 调谐 / 互通测试要点 — [MIB 同步](02-omci/mib-upload-sync.md) / [NG-PON2](01-protocol-stack/ngpon2-g989/overview.md) / [互通测试](06-interop/test-plan-overview.md)
 - [x] 迭代 9：OMCI 软件升级 / 25-50G-PON / 流氓 ONU — [软件升级](02-omci/software-upgrade.md) / [25-50G-PON](01-protocol-stack/hsp-g9804/overview.md) / [流氓 ONU](05-operations/rogue-onu.md)
-- [ ] 迭代 10（下一批）：DBA 公平性度量参考模型 / GEM 帧定界与碎片重组细节 / OMCI 扩展消息格式逐字段 / ONU 一致性测试（OD-247）
+- [x] 迭代 10：GEM/XGEM 定界与碎片 / OMCI 消息格式逐字段 / DBA 参考模型与度量 — [GEM/XGEM](01-protocol-stack/gem-xgem/encapsulation-delineation.md) / [消息格式](02-omci/message-formats.md) / [DBA 参考模型](03-dba/reference-model.md)
+- [ ] 迭代 11（下一批）：测距 EqD 计算逐步推导 / OMCI 扩展 vs 基线互通注意点 / VLAN 与 QoS（802.1p 映射）建模 / 多播 IGMP/MLD 控制细节

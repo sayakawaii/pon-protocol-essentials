@@ -5,6 +5,7 @@
 ## 目录
 
 - [OMCI 规范总览](omci-spec.md) — 消息格式（baseline/extended）、消息类型、操作、MIC、MIB 同步
+- [消息格式：Baseline 与 Extended（逐字段）](message-formats.md) — 48B 基线 vs 变长扩展、Message Type 位结构
 - [MIB Upload 与 MIB 同步](mib-upload-sync.md) — MIB data sync、新/旧 ONU 上线、三种同步场景
 - [软件升级（Software Image）](software-upgrade.md) — 双镜像、Download Section、Activate/Commit、失败回退
 - [HSI 上网业务配置链路 ⭐](provisioning-hsi.md) — 从 MIB Reset 到 Traffic Descriptor 的完整 ME 下发链路
