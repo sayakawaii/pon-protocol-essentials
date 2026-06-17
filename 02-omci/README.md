@@ -12,6 +12,8 @@
 - [ME 速查表](me-reference.md) — 常见 Managed Entity 的 Class / 属性 / 创建者
 - [VoIP 业务配置](provisioning-voip.md) — VoIP / SIP / POTS 相关 ME
 - [IPTV 业务配置](provisioning-iptv.md) — 组播 ME（Multicast GEM IW TP / Operations Profile）
+- [VLAN 与 QoS 建模](vlan-qos-modeling.md) — Extended VLAN Tagging Op、DSCP→P-bit、802.1p Mapper
+- [组播控制：IGMP / MLD](multicast-control.md) — snooping/proxy、IGMP 版本、ACL、Lost groups
 
 ## 核心概念
 

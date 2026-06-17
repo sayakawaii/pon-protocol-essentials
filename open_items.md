@@ -30,6 +30,7 @@
 | OMCI 规范总览（消息格式、操作、MIC、baseline/extended） | ✅ 已写满（[omci-spec.md](02-omci/omci-spec.md)） | 高 | 迭代 4 ✅ |
 | XGS-PON 激活状态机（独立写满） | ✅ 已写满 | 中 | 迭代 5 ✅ |
 | 测距与激活细节（EqD、静默窗、Drift/DOW/TIW） | ✅ 已写满 | 中 | 迭代 6 ✅ |
+| 测距 EqD 计算逐步推导（C.13-6/7/8、精度、测距） | ✅ 已写满（[ranging §4](01-protocol-stack/gpon-g984/ranging-activation.md)） | 中 | 迭代 11 ✅ |
 | XG-PON vs XGS-PON 差异（逐条对照 G.987.3 ↔ Annex C） | ✅ 已写满 | 低 | 迭代 6 ✅ |
 | EPON / 10G-EPON（MPCP 发现/GATE/REPORT、OAM、LLID） | ✅ 已写满 | 低 | 迭代 6 ✅ |
 | NG-PON2 TWDM（多波长架构、ONU 调谐、ICTP） | ✅ 已写满（[ngpon2 overview](01-protocol-stack/ngpon2-g989/overview.md)） | 低 | 迭代 8 ✅ |
@@ -47,6 +48,8 @@
 | OMCI MIB Upload 流程章节 | ✅ 已写满（[mib-upload-sync](02-omci/mib-upload-sync.md)） | 低 | 迭代 8 ✅ |
 | OMCI 软件升级（Software Image）流程章节 | ✅ 已写满（[software-upgrade](02-omci/software-upgrade.md)） | 低 | 迭代 9 ✅ |
 | OMCI baseline/extended 消息格式逐字段 | ✅ 已写满（[message-formats](02-omci/message-formats.md)） | 低 | 迭代 10 ✅ |
+| VLAN 与 QoS 建模（Ext VLAN Tagging Op / 802.1p / DSCP→P） | ✅ 已写满（[vlan-qos-modeling](02-omci/vlan-qos-modeling.md)） | 中 | 迭代 11 ✅ |
+| 组播 IGMP/MLD 控制（snooping/proxy/ACL/版本） | ✅ 已写满（[multicast-control](02-omci/multicast-control.md)） | 中 | 迭代 11 ✅ |
 
 ### DBA（需求 4）—— 基本完成，可增强
 
@@ -76,4 +79,5 @@
 - [x] 迭代 8：OMCI MIB Upload / NG-PON2 TWDM 调谐 / 互通测试要点 — [MIB 同步](02-omci/mib-upload-sync.md) / [NG-PON2](01-protocol-stack/ngpon2-g989/overview.md) / [互通测试](06-interop/test-plan-overview.md)
 - [x] 迭代 9：OMCI 软件升级 / 25-50G-PON / 流氓 ONU — [软件升级](02-omci/software-upgrade.md) / [25-50G-PON](01-protocol-stack/hsp-g9804/overview.md) / [流氓 ONU](05-operations/rogue-onu.md)
 - [x] 迭代 10：GEM/XGEM 定界与碎片 / OMCI 消息格式逐字段 / DBA 参考模型与度量 — [GEM/XGEM](01-protocol-stack/gem-xgem/encapsulation-delineation.md) / [消息格式](02-omci/message-formats.md) / [DBA 参考模型](03-dba/reference-model.md)
-- [ ] 迭代 11（下一批）：测距 EqD 计算逐步推导 / OMCI 扩展 vs 基线互通注意点 / VLAN 与 QoS（802.1p 映射）建模 / 多播 IGMP/MLD 控制细节
+- [x] 迭代 11：VLAN/QoS 建模 / 组播 IGMP/MLD 控制 / 测距 EqD 推导 — [VLAN/QoS](02-omci/vlan-qos-modeling.md) / [组播控制](02-omci/multicast-control.md) / [EqD 推导](01-protocol-stack/gpon-g984/ranging-activation.md)
+- [ ] 迭代 12（下一批）：ONU 一致性测试（OD-247） / IP host 与 TR-069 远管建模 / 伪线(PW)与 TDM 业务 / 数据通道 datapath 全景串讲
